@@ -1,0 +1,49 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #a7a5a5;
+    }
+
+    h1 {
+      color: rgb(4, 64, 132);
+    }
+
+    fieldset {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #b1eaf8;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+      transition: 0.3s ease;
+    }
+
+    fieldset:hover{
+        box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.438);
+    }
+
+    legend {
+      font-weight: bold;
+      background-color: #fff;
+      border-bottom: 1px solid black;
+      color: rgb(0, 115, 255);
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    button {
+      margin-right: 10px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+      box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.658);
+    }

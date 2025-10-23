@@ -1,0 +1,65 @@
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>QCM - Les Pays du Monde</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <h1>QCM => Les Pays du Monde</h1>
+  <form id="qcmForm">
+
+    <!-- Question 1 -->
+    <fieldset>
+      <legend>1. Quelle est la capitale de la France ?</legend>
+      <label><input type="radio" name="q1" value="a"> Madrid</label><br>
+      <label><input type="radio" name="q1" value="b"> Paris</label><br>
+      <label><input type="radio" name="q1" value="c"> Rome</label>
+    </fieldset>
+
+    <!-- Question 2 -->
+    <fieldset>
+      <legend>2. Quel pays est le plus grand du monde par sa superficie ?</legend>
+      <label><input type="radio" name="q2" value="a"> Chine</label><br>
+      <label><input type="radio" name="q2" value="b"> Russie</label><br>
+      <label><input type="radio" name="q2" value="c"> Canada</label>
+    </fieldset>
+
+    <!-- Question 3 -->
+    <fieldset>
+      <legend>3. Lesquels de ces pays sont situés en Afrique ?</legend>
+      <label><input type="checkbox" name="q3" value="a"> Égypte</label><br>
+      <label><input type="checkbox" name="q3" value="b"> Brésil</label><br>
+      <label><input type="checkbox" name="q3" value="c"> Maroc</label><br>
+      <label><input type="checkbox" name="q3" value="d"> Japon</label>
+    </fieldset>
+
+    <!-- Question 4 -->
+    <fieldset>
+      <legend>4. Lesquels de ces pays appartiennent à l'Union européenne ?</legend>
+      <label><input type="checkbox" name="q4" value="a"> Allemagne</label><br>
+      <label><input type="checkbox" name="q4" value="b"> Norvège</label><br>
+      <label><input type="checkbox" name="q4" value="c"> Italie</label><br>
+      <label><input type="checkbox" name="q4" value="d"> Suisse</label>
+    </fieldset>
+
+    <!-- Question 5 -->
+    <fieldset>
+      <legend>5. Quel est le pays le plus peuple du monde ?</legend>
+      <label><input type="radio" name="q5" value="a"> Inde</label><br>
+      <label><input type="radio" name="q5" value="b"> Etats-Unis</label><br>
+      <label><input type="radio" name="q5" value="c"> Chine</label>
+    </fieldset>
+
+    <div class="buttons">
+      <button type="button" onclick="initialiserQCM()">Initialiser le QCM</button>
+      <button type="button" onclick="afficherCorrections()">Afficher les réponses</button>
+      <button type="button" onclick="afficherResultat()">Afficher le resultat</button>
+    </div>
+  </form>
+
+</body>
+</html>
