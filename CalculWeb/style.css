@@ -1,0 +1,74 @@
+body{
+    background: #17345d;
+}
+#calPa{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: #013988;
+}
+.calculator{
+    background: rgb(194, 232, 252);
+    width: 300px;
+    height: 500px;
+    margin: 20% auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px rgb(24, 24, 24);
+}
+#display{
+    background: rgb(182, 226, 250);
+    align-items: end;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    margin: 15px;
+}
+#solution{
+    align-items: end;
+    margin: 10px;
+}
+.btnL1, .btnL2, .btnL3, .btnL4, btnL5{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.btnes, .btnesN, .btnesM{
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    margin: 5px;    
+    background: rgb(42, 180, 239);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+.btnes:hover{
+    box-shadow: 1px 1px 1px 0 rgb(127, 127, 127);
+    background: rgb(124, 200, 233);
+}
+.btnesM:hover{
+    box-shadow: 1px 1px 1px 0 rgb(127, 127, 127);
+    background: rgb(124, 200, 233);
+}
+.btnL5{
+    margin-left: 10px;
+}
+#btnEqual{
+    width: 120px;
+}
+.btnesN{
+    background: rgb(40, 173, 162);
+    border-radius: 15px;
+}
+.btnesN:hover{
+     box-shadow: 1px 1px 1px 0 rgb(127, 127, 127);
+     background: rgb(98, 206, 197);
+}
+.btnesM{
+    background: rgb(35, 152, 202);
+}
+.btnesM:hover{
+    background: rgb(99, 196, 238);
+}
